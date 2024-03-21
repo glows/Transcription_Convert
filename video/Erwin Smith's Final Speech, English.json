@@ -1,0 +1,173 @@
+{
+    "text": " There's no point standing around. We'll only be showered by more boulders. Ready your horses on the double! Be honest. Are all of us... riding to our deaths? Yes, we are. And since we're dying anyway, you're saying that it's better... if we at least die fighting? I am. But wait. If we'll die anyway, then who cares what we do? We could just disobey your orders. And it wouldn't mean a thing, would it? Yes, you're precisely right. Everything that you thought had meaning, every hope, dream, or moment of happiness, none of it matters as you lie bleeding out on the battlefield. None of it changes what a speeding rock does to a body. We all die. But does that mean our lives are meaningless? Does that mean that there was no point in our being born? Would you say that of our slain comrades? What about their lives? Were they meaningless? They were not! Their memory serves as an example to us all! The courageous fallen, the anguished fallen! Their lives have meaning because we, the living, refuse to forget them! And as we ride to certain death, we trust our successors to do the same for us! Because my soldiers do not buckle or yield when faced with the cruelty of this world! My soldiers push forward! My soldiers scream out! My soldiers rage! Thanks for watching!",
+    "chunks": [
+        {
+            "timestamp": [
+                0.2,
+                4.14
+            ],
+            "text": " There's no point standing around. We'll only be showered by more boulders."
+        },
+        {
+            "timestamp": [
+                4.94,
+                6.34
+            ],
+            "text": " Ready your horses on the double!"
+        },
+        {
+            "timestamp": [
+                7.48,
+                10.0
+            ],
+            "text": " Be honest. Are all of us..."
+        },
+        {
+            "timestamp": [
+                10.88,
+                12.18
+            ],
+            "text": " riding to our deaths?"
+        },
+        {
+            "timestamp": [
+                13.42,
+                14.46
+            ],
+            "text": " Yes, we are."
+        },
+        {
+            "timestamp": [
+                15.52,
+                18.0
+            ],
+            "text": " And since we're dying anyway, you're saying that it's better..."
+        },
+        {
+            "timestamp": [
+                19.02,
+                21.38
+            ],
+            "text": " if we at least die fighting?"
+        },
+        {
+            "timestamp": [
+                22.28,
+                22.92
+            ],
+            "text": " I am."
+        },
+        {
+            "timestamp": [
+                23.84,
+                28.2
+            ],
+            "text": " But wait. If we'll die anyway, then who cares what we do?"
+        },
+        {
+            "timestamp": [
+                28.8,
+                30.38
+            ],
+            "text": " We could just disobey your orders."
+        },
+        {
+            "timestamp": [
+                31.2,
+                32.66
+            ],
+            "text": " And it wouldn't mean a thing, would it?"
+        },
+        {
+            "timestamp": [
+                33.2,
+                34.7
+            ],
+            "text": " Yes, you're precisely right."
+        },
+        {
+            "timestamp": [
+                36.18,
+                37.88
+            ],
+            "text": " Everything that you thought had meaning,"
+        },
+        {
+            "timestamp": [
+                38.34,
+                40.32
+            ],
+            "text": " every hope, dream, or moment of happiness,"
+        },
+        {
+            "timestamp": [
+                41.54,
+                44.62
+            ],
+            "text": " none of it matters as you lie bleeding out on the battlefield."
+        },
+        {
+            "timestamp": [
+                46.82,
+                55.48
+            ],
+            "text": " None of it changes what a speeding rock does to a body. We all die. But does that mean our lives are meaningless?"
+        },
+        {
+            "timestamp": [
+                55.48,
+                67.16
+            ],
+            "text": " Does that mean that there was no point in our being born? Would you say that of our slain comrades? What about their lives? Were they meaningless?"
+        },
+        {
+            "timestamp": [
+                67.16,
+                69.88
+            ],
+            "text": " They were not!"
+        },
+        {
+            "timestamp": [
+                69.88,
+                73.36
+            ],
+            "text": " Their memory serves as an example to us all!"
+        },
+        {
+            "timestamp": [
+                73.36,
+                76.56
+            ],
+            "text": " The courageous fallen, the anguished fallen!"
+        },
+        {
+            "timestamp": [
+                76.56,
+                80.76
+            ],
+            "text": " Their lives have meaning because we, the living, refuse to forget them!"
+        },
+        {
+            "timestamp": [
+                80.76,
+                85.0
+            ],
+            "text": " And as we ride to certain death, we trust our successors to do the same for us!"
+        },
+        {
+            "timestamp": [
+                86.0,
+                91.0
+            ],
+            "text": " Because my soldiers do not buckle or yield when faced with the cruelty of this world!"
+        },
+        {
+            "timestamp": [
+                92.0,
+                110.5
+            ],
+            "text": " My soldiers push forward! My soldiers scream out! My soldiers rage! Thanks for watching!"
+        }
+    ]
+}
