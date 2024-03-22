@@ -1,6 +1,7 @@
 import subprocess
 import os
 import sys
+import time
 import torch
 from transformers import pipeline
 from transformers.utils import is_flash_attn_2_available
@@ -50,7 +51,7 @@ def convert_to_json(data, write_to_file=False, file_path='output.json'):
 def transcribe_and_convert(audio_dir):
     pipe = pipeline(
         "automatic-speech-recognition",
-        model="openai/whisper-large-v3",
+        model="distil-whisper/large-v2",
         # openai/whisper-base  openai/whisper-large-v3
         torch_dtype=torch.float32,
         device="cuda:0" if torch.cuda.is_available() else "cpu",
@@ -65,6 +66,9 @@ def transcribe_and_convert(audio_dir):
                 json_output_path = os.path.join(root, base_name + '_raw'+ ".json")
 
                 print(f"Transcribing {file_path}...")
+                # Record the start time
+                start_time = time.time()
+
                 outputs = pipe(
                     file_path,
                     chunk_length_s=30,
@@ -72,11 +76,22 @@ def transcribe_and_convert(audio_dir):
                     return_timestamps=True,
                 )
 
+                # Print the recognized subtitle text
+                for output in outputs:
+                    # Calculate the elapsed time during the transcription
+                    elapsed_time = time.time() - start_time
+                    print(f"Elapsed time: {elapsed_time:.2f} seconds")
+
+                # Calculate the processing time
+                end_time = time.time()
+                processing_time = end_time - start_time
+                print(f"Processing time: {processing_time:.2f} seconds")
+
                 # 指定要输出的 JSON 文件路径
                 output_file_path = os.path.join(root, base_name + ".json")
 
                 # 打印输出
-                print("Output data:", outputs)
+                # print("Output data:", outputs)
                 # 将字典内容写入 JSON 文件
                 with open(output_file_path, 'w', encoding='utf-8') as json_file:
                     json.dump(outputs, json_file, ensure_ascii=False, indent=4)
